@@ -3,7 +3,7 @@
 **IN ENGLISH**
 
 **BUILDING ADDRESSES**: The algorithm compiles a table that includes
-addresses of all buildings highlighted in selected locations marked at https://www.openstreetmap.org.
+addresses of all buildings with the coordinates located in the selected areas of the service https://www.openstreetmap.org.
 
 **Author**: Arseny Vezhlev, vensky242@gmail.com
 St. Petersburg, Russia
@@ -11,5 +11,5 @@ St. Petersburg, Russia
 **IN RUSSIAN**
 
 **BUILDING ADDRESSES**: Алгоритм составляет таблицу, которая включает
-адреса всех зданий, находящихся в выбранных областях, отмеченных на
-https://www.openstreetmap.org.
+адреса всех зданий с указанием координат, находящихся в выбранных областях
+сервиса https://www.openstreetmap.org.
