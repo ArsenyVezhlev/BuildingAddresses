@@ -65,6 +65,7 @@ def get_addresses():
         writer = csv.writer(csv_file)
         writer.writerows(buildings)
 
+
 start_time = time.time()
 get_addresses()
-print("--- %s seconds ---" % (time.time() - start_time))
+print(f"{time.time() - start_time} seconds")
