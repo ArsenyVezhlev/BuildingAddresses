@@ -4,7 +4,7 @@
 
 **BUILDING ADDRESSES**: The algorithm compiles a table that includes
 addresses of all buildings with the coordinates located in the selected areas of the service https://www.openstreetmap.org.
-The algorithm uses the OpenStreetMap API v0.6 and the Nominatim OpenStreetMap API.
+The algorithm uses the [OpenStreetMap API v0.6](https://wiki.openstreetmap.org/wiki/RU:API_v0.6) and [Nominatim OpenStreetMap API](https://nominatim.org/release-docs/develop/api/Overview/).
 
 **Author**: Arseny Vezhlev, vensky242@gmail.com
 St. Petersburg, Russia
