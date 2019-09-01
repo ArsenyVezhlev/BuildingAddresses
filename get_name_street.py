@@ -6,7 +6,7 @@ import csv
 
 def get_addresses():
 
-    #the coordinates of the areas	
+    #area coordinates in the format min_longitude, min_latitude, max longitude, max_latitude
     input_box = ['58.4277,51.2125,58.4881,51.2645', '58.4881,51.2147,58.5255,51.2464',
                  '58.2477000,51.2874000,58.2712000,51.3037000',
                  '58.5458,51.1903,58.5884,51.2174']
@@ -37,14 +37,14 @@ def get_addresses():
     #Nominatim OSM API allows you to request data on only 50 objects
     while len(list_id) > 49:
         for element in list_id[:49]:
-            string_cite += str(element)+','
+            string_cite += str(element) + ','
         del list_id[:49]
         list_cites.append(string_cite)
         string_cite = 'https://nominatim.openstreetmap.org/lookup?format=xml&osm_ids='
 
     #list of sites that provide information about objects
     for element in list_id:
-        string_cite += str(element)+','
+        string_cite += str(element) + ','
     list_cites.append(string_cite)
 
     for element in list_cites:
