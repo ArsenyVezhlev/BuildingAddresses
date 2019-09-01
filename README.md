@@ -14,4 +14,4 @@ St. Petersburg, Russia
 **BUILDING ADDRESSES**: Алгоритм составляет таблицу, которая включает
 адреса всех зданий с указанием координат, находящихся в выбранных областях
 сервиса https://www.openstreetmap.org.
-В алгоритме используются OpenStreetMap API v0.6 и Nominatim OpenStreetMap API.
+В алгоритме используются [OpenStreetMap API v0.6](https://wiki.openstreetmap.org/wiki/RU:API_v0.6) и [Nominatim OpenStreetMap API](https://nominatim.org/release-docs/develop/api/Overview/).
