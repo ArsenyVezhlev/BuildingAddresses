@@ -54,11 +54,11 @@ def get_addresses():
         #finding the name of the city, street, house number, latitude and longitude
         for i in soup1.find_all('place'):
             if i.city and i.road and i.house_number:
-                buildings.append([i.city.string, i.road.string, i.house_number.string, 		  					  i.get('lat'), i.get('lon')])
+                buildings.append([i.city.string, i.road.string, i.house_number.string, i.get('lat'), i.get('lon')])
             elif i.town and i.road and i.house_number:
-                buildings.append([i.town.string, i.road.string, i.house_number.string, 		 					  i.get('lat'), i.get('lon')])
+                buildings.append([i.town.string, i.road.string, i.house_number.string, i.get('lat'), i.get('lon')])
             elif i.village and i.road and i.house_number:
-                buildings.append([i.village.string, i.road.string, i.house_number.string, 	 				     	  i.get('lat'), i.get('lon')])
+                buildings.append([i.village.string, i.road.string, i.house_number.string, i.get('lat'), i.get('lon')])
 
     #write to csv file
     with open('ourput_newapi.csv', "w", newline='') as csv_file:
